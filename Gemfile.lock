@@ -501,7 +501,7 @@ GEM
       erb
       psych (>= 4.0.0)
     redcarpet (3.6.1)
-    redis-client (0.25.1)
+    redis-client (0.25.2)
       connection_pool
     regexp_parser (2.11.0)
     reline (0.6.2)
@@ -574,7 +574,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sidekiq (8.0.6)
+    sidekiq (8.0.7)
       connection_pool (>= 2.5.0)
       json (>= 2.9.0)
       logger (>= 1.6.2)
