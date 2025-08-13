@@ -24,7 +24,7 @@ module AppName
           config.active_record.verbose_query_logs = true
         end
           config.action_mailer.default_url_options = { host: "localhost:3000", from: "noreply@example.com" }
-  config.active_job.queue_adapter = ENV["RAILS_QUEUE"]&.to_sym || :sidekiq
+  config.active_job.queue_adapter = :async
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.0
 
