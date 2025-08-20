@@ -31,8 +31,8 @@
 /public/assets
 
 # Ignore master key for decrypting credentials and more.
-config/master.key
-config/credentials.yml.enc
+/config/master.key
+/config/credentials.yml.enc
 
 
 /app/assets/builds/*
@@ -40,4 +40,5 @@ config/credentials.yml.enc
 
 /node_modules
 
-/config/master.key
+.DS_Store
+
